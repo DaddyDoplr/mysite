@@ -4,6 +4,8 @@ body {
     background-image: url("./assets/images/bgdot.png");
 }
 
+
+
 /* Text */
 p {
     font-family: "Noto Sans JP", sans-serif;
@@ -34,6 +36,8 @@ h4 {
     margin: 0px;
 }
 
+
+
 /* Overall container */
 .MainBody {
     border-radius: 15px;
@@ -46,6 +50,8 @@ h4 {
     border-color: #D3D3D3;
 }
 
+
+
 /* Header */
 #Header {
     padding: 30px;
@@ -57,6 +63,7 @@ h4 {
     background-color: black;
     background-clip: padding-box, content-box;
 }
+
 
 /* Navigation Bar */
 .NavBar {
@@ -80,6 +87,8 @@ h4 {
     text-decoration: none;
     color: white;
 }
+
+
 
 /* Sidebar */
 .SideBar {
@@ -109,6 +118,8 @@ h4 {
     margin-left: 15px;
     font-size: 12px;
 }
+
+
 
 /* Inner Body */
 .InternalBody {
