@@ -96,6 +96,7 @@ h4 {
     padding: 20px;
     color: white;
     position:absolute;
+    margin-bottom: 0px;
 }
 .SideBar a, a:visited, a:active {
     text-decoration: none;
@@ -118,6 +119,7 @@ h4 {
 .InternalBody {
     padding: 20px;
     margin-left: 240px;
+    margin-bottom: 0px;
     width: 520px;
     height: 646px;
     display: inline-block;
