@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    background-color: #AAD2FF;
+    background-image: url("./assets/images/bgdot.png");
+}
+
+
+
+h1 {
+    vertical-align: center;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:300;
+    font-size: 35pt;
+    padding: 0px;
+    margin: auto;
+}
+
+h3 {
+    font-size: 12pt;
+    margin: 5%;
+}
+
+h4 {
+    margin: 0px;
+}
+
+#Header {
+    padding: 30px;
+    padding-top: 40px;
+    border-radius: 9px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    
+    color: white;
+    background-color: black;
+    background-clip: padding-box, content-box;
+}
+
+.NavBar {
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #8698A0;
+}
+
+#NavButton {
+    border-radius: 10px;
+    color: white;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    display: inline-block;
+}
+#NavButton:hover {
+    background-color: #a9bec7;
+}
+#NavButton a {
+    text-decoration: none;
+    color: white;
+}
+
+.SideBar {
+    width: 200px;
+    height: 650px;
+    background-color: #497749;
+    background-image: url("./assets/images/bgtri.png");
+    border-right: 3px solid #335733;
+    padding: 20px;
+    color: white;
+    border-bottom-left-radius: 8px;
+    position: fixed;
+}
+.SideBar div {
+    border-radius: 10px;;
+    text-shadow: 1px 1px 3px #182c18;
+    display: block;
+}
+.SideBar #SideOption:hover {
+    background-color: #74ad74;
+}
+.SideBar h4 a {
+    text-decoration: none;
+    color: white;
+}
+.SideBar .sub {
+    margin-left: 15px;
+    font-size: 12px;
+}
+
+.InternalBody {
+    padding: 20px;
+    margin-left: 250px;
+    width: 200px;
+    height: 650px;
+    display: inline-block;
+}
+
+
+.MainBody {
+    border-radius: 15px;
+    background-color: white;
+    max-width: 800px;
+    min-width: 800px;
+    margin: auto;
+    border: 6px;
+    border-style:outset;
+    border-color: #D3D3D3;
+}
