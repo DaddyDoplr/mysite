@@ -5,7 +5,6 @@ body {
 }
 
 
-
 /* Text */
 p {
     font-family: "Noto Sans JP", sans-serif;
@@ -37,7 +36,6 @@ h4 {
 }
 
 
-
 /* Overall container */
 .MainBody {
     border-radius: 15px;
@@ -49,7 +47,6 @@ h4 {
     border-style:outset;
     border-color: #D3D3D3;
 }
-
 
 
 /* Header */
@@ -89,7 +86,6 @@ h4 {
 }
 
 
-
 /* Sidebar */
 .SideBar {
     width: 200px;
@@ -102,23 +98,21 @@ h4 {
     border-bottom-left-radius: 8px;
     position:absolute;
 }
-.SideBar div {
-    border-radius: 10px;;
-    text-shadow: 1px 1px 3px #182c18;
-    display: block;
-}
-.SideBar #SideOption:hover {
-    background-color: #74ad74;
-}
 .SideBar a {
     text-decoration: none;
     color: white;
+}
+.SideBar div {
+    border-radius: 10px;;
+    text-shadow: 1px 1px 3px #182c18;
+}
+.SideBar #SideOption:hover {
+    background-color: #74ad74;
 }
 .SideBar .sub {
     margin-left: 15px;
     font-size: 12px;
 }
-
 
 
 /* Inner Body */
