@@ -4,10 +4,12 @@ body {
     background-image: url("./assets/images/bgdot.png");
 }
 
+/* Text */
 p {
     font-family: "Noto Sans JP", sans-serif;
-    font-size: 14pt;
+    font-size: 13pt;
     font-weight: 400;
+    margin-top: 0px;
 }
 
 h1 {
@@ -19,6 +21,9 @@ h1 {
     padding: 0px;
     margin: auto;
 }
+h2 {
+    margin-bottom: 2px;
+}
 
 h3 {
     font-size: 12pt;
@@ -29,6 +34,19 @@ h4 {
     margin: 0px;
 }
 
+/* Overall container */
+.MainBody {
+    border-radius: 15px;
+    background-color: white;
+    max-width: 800px;
+    min-width: 800px;
+    margin: auto;
+    border: 6px;
+    border-style:outset;
+    border-color: #D3D3D3;
+}
+
+/* Header */
 #Header {
     padding: 30px;
     padding-top: 40px;
@@ -40,13 +58,13 @@ h4 {
     background-clip: padding-box, content-box;
 }
 
+/* Navigation Bar */
 .NavBar {
     padding: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #8698A0;
 }
-
 #NavButton {
     border-radius: 10px;
     color: white;
@@ -63,6 +81,7 @@ h4 {
     color: white;
 }
 
+/* Sidebar */
 .SideBar {
     width: 200px;
     height: 650px;
@@ -82,7 +101,7 @@ h4 {
 .SideBar #SideOption:hover {
     background-color: #74ad74;
 }
-.SideBar h4 a {
+.SideBar a {
     text-decoration: none;
     color: white;
 }
@@ -91,6 +110,7 @@ h4 {
     font-size: 12px;
 }
 
+/* Inner Body */
 .InternalBody {
     padding: 20px;
     margin-left: 240px;
@@ -98,16 +118,4 @@ h4 {
     height: 646px;
     display: inline-block;
     overflow-y: auto;
-}
-
-
-.MainBody {
-    border-radius: 15px;
-    background-color: white;
-    max-width: 800px;
-    min-width: 800px;
-    margin: auto;
-    border: 6px;
-    border-style:outset;
-    border-color: #D3D3D3;
 }
