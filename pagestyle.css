@@ -4,7 +4,11 @@ body {
     background-image: url("./assets/images/bgdot.png");
 }
 
-
+p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+}
 
 h1 {
     vertical-align: center;
@@ -31,7 +35,6 @@ h4 {
     border-radius: 9px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    
     color: white;
     background-color: black;
     background-clip: padding-box, content-box;
@@ -69,7 +72,7 @@ h4 {
     padding: 20px;
     color: white;
     border-bottom-left-radius: 8px;
-    position: fixed;
+    position:absolute;
 }
 .SideBar div {
     border-radius: 10px;;
@@ -90,10 +93,11 @@ h4 {
 
 .InternalBody {
     padding: 20px;
-    margin-left: 250px;
-    width: 200px;
-    height: 650px;
+    margin-left: 240px;
+    width: 520px;
+    height: 646px;
     display: inline-block;
+    overflow-y: auto;
 }
 
 
