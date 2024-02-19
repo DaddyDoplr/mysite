@@ -17,6 +17,17 @@
         <link rel="stylesheet" href="pagestyle.css" />
         <link rel="icon" href="./assets/images/siteicon.png" />
 
+        <script>
+
+            function revealEmail() {
+                console.log("hi");
+
+                x = document.getElementsByClassName("email");
+                x[0].innerHTML = "<b>Email:</b> doplrbusiness@gmail.com";
+            }
+            
+        </script>
+
         <style>
         </style>
 
@@ -140,7 +151,11 @@
 
                     <hr>
                     
-                    <p><b>Email:</b> doplrbusiness@gmail.com</p>
+                    <p class="email"><b>Email:</b> 
+                        <button style="width: 230px;" onclick="{revealEmail()}"><b>Reveal</b></button>
+                        
+                    </p>
+                    <br>
                     <p><b>Discord:</b> @2kdoplr</p>
                 </div>
 

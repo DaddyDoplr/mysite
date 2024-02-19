@@ -44,6 +44,19 @@ hr {
     float:left
 }
 
+button {
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+}
+button:hover {
+    
+    background-color: rgb(209, 209, 209);
+}
+
 
 /* Overall container */
 .MainBody {
