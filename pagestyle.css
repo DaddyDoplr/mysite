@@ -35,6 +35,15 @@ h4 {
     margin: 0px;
 }
 
+hr {
+    border-top: 2px solid black;
+}
+
+.fa {
+    width: 20px;
+    float:left
+}
+
 
 /* Overall container */
 .MainBody {
@@ -59,6 +68,7 @@ h4 {
     color: white;
     background-color: black;
     background-clip: padding-box, content-box;
+    cursor: default;
 }
 
 
@@ -68,6 +78,7 @@ h4 {
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #8698A0;
+    cursor: default;
 }
 #NavButton {
     border-radius: 10px;
@@ -97,6 +108,7 @@ h4 {
     color: white;
     position:absolute;
     margin-bottom: 0px;
+    cursor:default;
 }
 .SideBar a, a:visited, a:active {
     text-decoration: none;
@@ -104,7 +116,7 @@ h4 {
 }
 .SideBar div {
     border-radius: 10px;;
-    text-shadow: 1px 1px 3px #182c18;
+    /* text-shadow: 1px 1px 3px #182c18; */
 }
 .SideBar #SideOption:hover {
     background-color: #74ad74;
