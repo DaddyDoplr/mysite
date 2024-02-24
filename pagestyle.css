@@ -24,6 +24,8 @@ h1 {
 }
 h2 {
     margin-bottom: 2px;
+    font-size: 22pt;
+    font-family: "Josefin Sans", sans-serif;
 }
 
 h3 {
@@ -56,6 +58,10 @@ button:hover {
     
     background-color: rgb(209, 209, 209);
 }
+
+/* table, tr, th {
+    border: 1px solid black;
+} */
 
 
 /* Overall container */
@@ -137,6 +143,20 @@ button:hover {
 .SideBar .sub {
     margin-left: 15px;
     font-size: 12px;
+}
+
+.RenderTile {
+    width: 150px;
+    display: block;
+}
+.RenderCaption {
+    font-size: small;
+    font-weight: 600;
+    margin: 0px;
+}
+.RenderDate {
+    font-size: 8pt;
+    margin: 0px;
 }
 
 

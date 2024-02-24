@@ -17,6 +17,25 @@
         <link rel="stylesheet" href="../pagestyle.css" />
         <link rel="icon" href="../assets/images/siteicon.png" />
 
+        <script>
+
+            window.onload = function() {
+                getPaths();
+            }
+
+            function getPaths() {
+                const paths = document.getElementsByClassName("RenderTile");
+                const captions = document.getElementsByClassName("RenderCaption");
+                const filenames = [];
+
+                for (var i = 0; i < paths.length; i++) {
+                    filenames[i] = paths[i].src.replace(/^.*[\\\/]/, '');
+                    captions[i].innerHTML = "<em>" + filenames[i] + "</em>";
+                }
+            }
+
+        </script>
+
         <style>
         </style>
 
@@ -138,7 +157,63 @@
 
                     <hr>
 
-                    <p>Currently under construction...</p>
+                    <p style="font-size: small;"><em>All images are protected under 2kDoplr Animation™ 2023-2024.
+                        All rights reserved. For-proft use of names or imagery is non-permissible.</em></p>
+                    
+                    <h2><b>Character Renders</b></h2>
+
+                    <table width="520px">
+                        <tr>
+                            <th>
+                                <div style="height: 300px">
+                                    <img class="RenderTile" src="../assets/images/renders/Brooklyn_Woods.png">
+                                    <p class="RenderCaption"></p>
+                                    <p class="RenderDate">(Feb 2024)</p>
+                                </div>
+                            </th>
+                            <th>
+                                <div style="height: 300px">
+                                    <img class="RenderTile" src="../assets/images/renders/Terra_Woods.png">
+                                    <p class="RenderCaption"></p>
+                                    <p class="RenderDate">(Feb 2024)</p>
+                                </div>
+
+                            </th>
+                            <th>
+                                <div style="height: 300px">
+                                    <img class="RenderTile" src="../assets/images/renders/Sven_Elliot.png">
+                                    <p class="RenderCaption"></p>
+                                    <p class="RenderDate">(Feb 2024)</p>
+                                </div>
+                                
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                <div style="height: 300px">
+                                    <img class="RenderTile" src="../assets/images/renders/Kira_Song.png">
+                                    <p class="RenderCaption"></p>
+                                    <p class="RenderDate">(Feb 2024)</p>
+                                </div>
+                            </th>
+                            <th>
+                                <div style="height: 300px">
+                                    <img class="RenderTile" src="../assets/images/renders/Sona_Myles.png">
+                                    <p class="RenderCaption"></p>
+                                    <p class="RenderDate">(Feb 2024)</p>
+                                </div>
+
+                            </th>
+                            <th>
+                                <div style="height: 300px">
+                                    <img class="RenderTile" src="../assets/images/renders/Sona_Myles_Alt.png">
+                                    <p class="RenderCaption"></p>
+                                    <p class="RenderDate">(Feb 2024)</p>
+                                </div>
+                                
+                            </th>
+                        </tr>
+                    </table>
                 </div>
 
             </div>
