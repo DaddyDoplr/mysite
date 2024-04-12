@@ -68,8 +68,8 @@ button:hover {
 .MainBody {
     border-radius: 15px;
     background-color: white;
-    max-width: 800px;
-    min-width: 800px;
+    max-width: 1000px;
+    min-width: 1000px;
     margin: auto;
     border: 6px;
     border-style:outset;
@@ -167,7 +167,7 @@ button:hover {
     padding: 20px;
     margin-left: 250px;
     margin-bottom: 0px;
-    width: 510px;
+    width: 710px;
     height: 690px;
     display: inline-block;
     overflow-y: auto;
