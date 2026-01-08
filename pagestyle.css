@@ -1,7 +1,8 @@
 body {
     font-family: sans-serif;
-    background-color: #AAD2FF;
-    background-image: url("./assets/images/bgdot.png");
+    background-image: url("./assets/images/bg.png");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -86,7 +87,7 @@ button:hover {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     color: white;
-    background-color: black;
+    background: linear-gradient(0deg,rgb(32, 32, 32) 0%, rgb(41, 43, 44) 100%);
     background-clip: padding-box, content-box;
     cursor: default;
 }
@@ -97,7 +98,7 @@ button:hover {
     padding: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: #8698A0;
+    background: linear-gradient(0deg,rgba(80, 111, 115, 1) 0%, rgba(134, 152, 160, 1) 100%);
     cursor: default;
 }
 #NavButton {
@@ -120,9 +121,8 @@ button:hover {
 /* Sidebar */
 .SideBar {
     width: 220px;
-    height: 694px;
-    background-color: #497749;
-    background-image: url("./assets/images/bgtri.png");
+    height: 654px;
+    background: linear-gradient(0deg,rgba(10, 74, 58, 1) 0%, rgba(54, 133, 92, 1) 100%);
     border-right: 3px solid #335733;
     padding: 20px;
     color: white;
@@ -148,7 +148,7 @@ button:hover {
 }
 
 .RenderTile {
-    width: 150px;
+    width: 160px;
     display: block;
 }
 .RenderCaption {
@@ -168,7 +168,7 @@ button:hover {
     margin-left: 250px;
     margin-bottom: 0px;
     width: 710px;
-    height: 690px;
+    height: 650px;
     display: inline-block;
     overflow-y: auto;
 }
